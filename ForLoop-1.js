@@ -2,7 +2,8 @@
 /*
  * Complete the function below.
  */
-function forLoop(limit) {  
+function forLoop(limit) 
+{  
     var total = 0;
     
     for(var i = 0; i<=limit; i++)
@@ -11,15 +12,5 @@ function forLoop(limit) {
         }
             return total;
 
-}
-
-
-                {
-                    salida += "/";
-                }
-          
-        }
-                
-       return salida; 
 }
 
