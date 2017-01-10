@@ -12,3 +12,11 @@ function stringMultiplicar(n) {
             salida += n + "x" + i +"=" + resultado;
             
             if ((i+1)<= 10)
+                {
+                    salida += "/";
+                }
+            
+        }
+    return salida;
+}
+    
